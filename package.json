@@ -1,0 +1,24 @@
+{
+  "name": "animated-portfolio-gatsby5",
+  "private": true,
+  "homepage": "https://palakurthiraja1.github.io", 
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main" 
+  },
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.268.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.3",
+    "gh-pages": "^5.0.0"
+  }
+}
