@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to My Universe</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Palakurthi Raja Karthik's portfolio showcasing research in AI and NLP.">
+    <meta name="keywords" content="AI, NLP, Autonomous Agents, Research, Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Star Wars Intro -->
+    <div class="star-wars-intro">
+        <p class="intro-text">A long time ago in a galaxy far,<br> far away...</p>
+        <div class="crawl">
+            <div class="title">
+                <p>Episode I</p>
+                <h1>The Journey Begins</h1>
+            </div>
+            <p>
+                Palakurthi Raja Karthik, an aspiring researcher in the field of Artificial Intelligence, embarks on an epic quest to advance the realms of autonomous agents, intelligent systems, generative AI, and natural language processing...
+            </p>
+            <p>
+                His mission: to explore uncharted territories in AI research, develop groundbreaking technologies, and share his knowledge with the universe.
+            </p>
+        </div>
+    </div>
+
+    <!-- Enter Button -->
+    <a href="#content" class="enter-button">Enter the Universe</a>
+
+    <!-- Main Content -->
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Research Section -->
+        <section id="research">
+            <h2>Research</h2>
+            <p>My research focuses on the development of continual learning language agents that can adapt and generalize across tasks and environments without the need for extensive retraining.</p>
+            <p>I've worked on projects involving:</p>
+            <ul>
+                <li>Developing autonomous agents using frozen language models.</li>
+                <li>Enhancing performance through dynamic memory and causal abstractions.</li>
+                <li>Exploring rapid task adaptation in text-based environments.</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Discover my key projects:</p>
+            <ul>
+                <li><strong>IISc Project:</strong> Developed autonomous agents using natural language and frozen LLMs, enhancing their ability to generalize and adapt across various tasks.</li>
+                <li><strong>DRDO Internship:</strong> Explored fine-tuning strategies for large language models, focusing on optimization methods in NLP tasks.</li>
+                <li><strong>Ulster University RAG Application:</strong> Led the development of a Retrieval-Augmented Generation system, integrating advanced chatbots with user-uploaded content.</li>
+            </ul>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <p>Read about my contributions to the field, including papers on continual learning in language agents:</p>
+            <ul>
+                <li><strong>CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization</strong></li>
+                <!-- You can add links to your publications if available online -->
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch with me through the following channels:</p>
+            <ul>
+                <li>Email: <a href="mailto:rajakarthik.clg@gmail.com">rajakarthik.clg@gmail.com</a></li>
+                <li>Phone: +91 6300-197-193</li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/palakurthirajakarthik/" target="_blank">linkedin.com/in/palakurthirajakarthik/</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- JavaScript for the intro animation and interactivity -->
+    <script>
+        // Hide content initially
+        document.getElementById('content').style.display = 'none';
+
+        // Show content when "Enter the Universe" is clicked
+        document.querySelector('.enter-button').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelector('.star-wars-intro').style.display = 'none';
+            document.querySelector('.enter-button').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
