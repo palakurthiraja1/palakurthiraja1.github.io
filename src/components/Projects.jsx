@@ -17,49 +17,50 @@ const styles = {
   },
 };
 
-const Projects = (props) => {
+const Projects = ({ header }) => {
   const theme = useContext(ThemeContext);
-  const { header } = props;
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [showMore, setShowMore] = useState(false);
 
+  // Fetch project data
   useEffect(() => {
     fetch(endpoints.projects, {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
+      .then((res) => setData(res.projects || []))
+      .catch((err) => console.error('Error fetching projects:', err));
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+
+  const numberOfItems = showMore ? data.length : 6;
+
   return (
     <>
       <Header title={header} />
-      {data
-        ? (
-          <div className="section-content-container">
-            <Container style={styles.containerStyle}>
-              <Row xs={1} sm={1} md={2} lg={3} className="g-4">
-                {data.projects?.slice(0, numberOfItems).map((project) => (
-                  <Fade key={project.title}>
-                    <ProjectCard project={project} />
-                  </Fade>
-                ))}
-              </Row>
-
-              {!showMore
-                && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
-                )}
-            </Container>
-          </div>
-        ) : <FallbackSpinner /> }
+      {data.length > 0 ? (
+        <div className="section-content-container">
+          <Container style={styles.containerStyle}>
+            <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+              {data.slice(0, numberOfItems).map((project) => (
+                <Fade key={project.title}>
+                  <ProjectCard project={project} />
+                </Fade>
+              ))}
+            </Row>
+            {!showMore && (
+              <Button
+                style={styles.showMoreStyle}
+                variant={theme.bsSecondaryVariant}
+                onClick={() => setShowMore(true)}
+              >
+                Show More
+              </Button>
+            )}
+          </Container>
+        </div>
+      ) : (
+        <FallbackSpinner />
+      )}
     </>
   );
 };

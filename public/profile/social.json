@@ -1,16 +1,16 @@
 {
     "social": [
         {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "network": "linkedin",
+            "href": "https://linkedin.com/in/palakurthirajakarthik"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "network": "github",
+            "href": "https://github.com/palakurthiraja1"
         },
         {
-            "network" : "email",
-            "href": "mailto:test@test.com"
+            "network": "email",
+            "href": "mailto:rajakarthik.clg@gmail.com"
         }
     ]
 }

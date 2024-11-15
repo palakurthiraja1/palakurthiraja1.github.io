@@ -1,149 +1,103 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image": "images/projects/rag_simp.png",
+            "title": "RAG_SIMP",
+            "bodyText": "- Developed a retrieval-augmented generation system for intelligent conversation.\n - Modular architecture for enhanced flexibility.\n - Optimized for edge devices with quantized LLMs.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://github.com/palakurthiraja1/RAG_SIMP"
                 }
             ],
-            "tags" : [
+            "tags": [
+                "Python",
+                "FastAPI",
+                "Edge AI",
+                "Generative AI"
+            ]
+        },
+        {
+            "image": "images/projects/llm_agent.png",
+            "title": "LLM Agent",
+            "bodyText": "- Created a modular architecture for autonomous agents using LLMs.\n - Integrated LoRA and QLoRA-based models for task efficiency.\n - Experimented with reinforcement learning for continuous improvement.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/palakurthiraja1"
+                }
+            ],
+            "tags": [
+                "Python",
+                "LLMs",
+                "Reinforcement Learning",
+                "Autonomous Agents"
+            ]
+        },
+        {
+            "image": "images/projects/ecommerce_optimization.png",
+            "title": "E-commerce Optimization",
+            "bodyText": "- Enhanced backend systems for a high-traffic e-commerce platform.\n - Focused on customer experience optimization across multiple devices.\n - Reduced latency by optimizing database queries and APIs.",
+            "links": [
+                {
+                    "text": "Details",
+                    "href": "https://example.com/ecommerce-optimization"
+                }
+            ],
+            "tags": [
+                "JavaScript",
                 "React",
-                "Portfolio",
-                "JavaScript"
+                "MongoDB",
+                "Web Development"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image": "images/projects/clin_experiments.png",
+            "title": "CLIN-based Experiments",
+            "bodyText": "- Conducted experiments based on the CLIN architecture.\n - Focused on exploration aspects in text-based simulators.\n - Modified architecture for improved agent behaviors.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Research Paper",
+                    "href": "https://example.com/clin-research"
                 }
             ],
-            "tags" : [
+            "tags": [
+                "Natural Language Processing",
+                "CLIN",
+                "Research"
+            ]
+        },
+        {
+            "image": "images/projects/sentiment_analysis.png",
+            "title": "Sentiment Analysis Model",
+            "bodyText": "- Built a sentiment analysis model using a TF-IDF vectorizer and IMDb dataset.\n - Achieved high accuracy through feature engineering.\n - Developed interactive Colab notebooks for demonstrations.",
+            "links": [
+                {
+                    "text": "Notebook",
+                    "href": "https://example.com/sentiment-analysis"
+                }
+            ],
+            "tags": [
+                "Machine Learning",
+                "Sentiment Analysis",
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "NLP"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image": "images/projects/git_website.png",
+            "title": "GitHub.io Research Website",
+            "bodyText": "- Designed a personal website to showcase AI research.\n - Features agent initialization and LLM loading themes.\n - Highlights projects on autonomous agents and intelligent systems.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Website",
+                    "href": "https://palakurthiraja1.github.io"
                 }
             ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+            "tags": [
+                "GitHub Pages",
+                "React",
+                "Portfolio"
             ]
         }
     ]

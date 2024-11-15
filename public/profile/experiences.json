@@ -1,33 +1,48 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Project Associate",
+            "subtitle": "Indian Institute of Science, Bangalore",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Conducted research on generative AI and autonomous agents using text-based simulations.",
+                "Worked on a confidential DRDO radar project, transitioning traditional rule-based systems to advanced machine learning models.",
+                "Served as a Teaching Assistant for NLP courses, assisting with course material preparation, assignments, and tutorials."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "09/2023 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Research Intern",
+            "subtitle": "Defence Research and Development Organisation (DRDO)",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Explored strategies for fine-tuning large language models (LLMs) with retrieval-augmented generation (RAG).",
+                "Led a team of four interns to develop a robust framework for NLP tasks.",
+                "Conducted literature reviews and implemented data collection strategies for language modeling."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "01/2024 – 05/2024"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
+            "title": "Research Intern",
+            "subtitle": "Ulster University, UK",
+            "workType": "Internship",
+            "workDescription": [
+                "Developed a retrieval-augmented generation (RAG) application integrating FastAPI, Streamlit, and MongoDB.",
+                "Optimized conversational AI by combining context, recent chat history, and user queries for improved response generation.",
+                "Implemented secure user authentication and session management, enhancing application robustness."
+            ],
+            "dateText": "05/2024 – 08/2024"
+        },
+        {
+            "title": "Academic Language Contributor",
+            "subtitle": "Sanskriti Bench & Hugging Face",
             "workType": "Freelance",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Curated high-quality Telugu question-and-answer datasets to enhance AI model inclusivity.",
+                "Collaborated with language managers to ensure cultural and linguistic accuracy in Indic language models.",
+                "Evaluated performance disparities between Telugu and English AI outputs."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "01/2024 – 06/2024"
         }
     ]
 }
